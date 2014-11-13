@@ -1,0 +1,31 @@
+{
+  "name": "determinist",
+  "description": "A little bone-head of a finite state machine.",
+  "version": "0.0.1",
+  "keywords": [
+    "state-machine"
+  ],
+  "maintainers": [
+    {
+      "name": "Jacob Oscarson",
+      "url": "http://jacob414.plexical.com"
+    }
+  ],
+  "licences": [
+    "MIT"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Plexical/determinist.git"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R dot spec/"
+  },
+  "readme": "Readme for Determinist",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "license": "MIT"
+}
