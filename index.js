@@ -4,7 +4,4 @@
       util = require('util')
 
   util.inherits(Determinist, EventEmitter)
-
-  module.exports.Determinist = Determinist
-
 }((typeof exports === 'undefined') ? window : exports))
